@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Site</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">LOGO</div>
+            <ul>
+                <li>
+                    <span>SERVICES</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                        fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </li>
+                <li>FREE SEO TOOLS</li>
+                <li>BLOG</li>
+                <li>CONTACT</li>
+                <button class="signin navbtn">SIGN IN</button>
+                <button class="signup navbtn">SIGN UP</button>
+            </ul>
+            <svg class="menubtn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                color="#000000" fill="none">
+                <path d="M4 5L20 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path d="M4 12L20 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                <path d="M4 19L20 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </nav>
+        <div class="nav">
+            <div class="ul">
+                <li>
+                    <span>SERVICES</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                        fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </li>
+                <li>FREE SEO TOOLS</li>
+                <li>BLOG</li>
+                <li>CONTACT</li>
+                <div class="secnavbtns">
+                    <button class="signin navbtn">SIGN IN</button>
+                    <button class="signup navbtn">SIGN UP</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="txtcontainer">
+                <img src="mic.gif" alt="Not Found" class="backimg micgif">
+                <img src="pencil.gif" alt="Not Found" class="backimg pencilgif">
+                <img src="penpaper.gif" alt="Not Found" class="backimg penpapergif">
+                <img src="bar.gif" alt="Not Found" class="backimg bargif">
+                <div class="txttitle">#1 Press Release Distribution Service</div>
+                <div class="title1">Share your news today!</div>
+                <div class="txt">Our Company is the UK's leading press Distribution platform , ensure your news reaches
+                    a global audience. We help your business grow by getting you published , syndicated and featured in
+                    top tried news media.</div>
+                <button class="navbtn signup">Get Started</button>
+                <div class="txt2">
+                    <span style="color: #0093ED; font-weight: 500;">Join the 1000+</span> Active business that already
+                    trusts for their media exposure today.
+                </div>
+            </div>
+            <div class="img">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <marquee scrollamount="16" class="footerlogoscontainer">
+            <img src="Yahoo.png" alt="Not Found" class="footerimglogo">
+            <img src="RP.png" alt="Not Found" class="footerimglogo">
+            <img src="Ben.png" alt="Not Found" class="footerimglogo">
+            <img src="BI.png" alt="Not Found" class="footerimglogo">
+            <img src="GreenLight.png" alt="Not Found" class="footerimglogo">
+        </marquee>
+    </footer>
+    <script>
+        let button = document.getElementsByClassName("menubtn")[0];
+        let header = document.getElementsByTagName("header")[0];
+        button.addEventListener('click', () => {
+            header.classList.toggle('vissecnav')
+        })
+    </script>
+</body>
+
+</html>
